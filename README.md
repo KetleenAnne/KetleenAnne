@@ -1,5 +1,5 @@
 ## Hi! I'm Ketleen Anne! 👋
-- 🔭 I'm a Computer Science student at the Federal University of Juiz de Fora, a web development intern at Tabia Health.
+- 🔭 I'm Computer Science student at the Federal University of Juiz de Fora, a web development intern at Tabia Health.
 - 🌱 I am learning and improving knowledge in C, C++, Java, JavaScript
 
 
