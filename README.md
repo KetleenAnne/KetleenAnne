@@ -8,7 +8,7 @@ Hello! 👋 I'm Ketleen Anne Faria, a student of Exact Sciences and Computer Sci
 - Bachelor's Degree in Exact Sciences - Federal University of Juiz de Fora (2019 - Present)
 - Bachelor's Degree in Computer Science - Federal University of Juiz de Fora (2019 - Present)
 
-## Professional Experience
+# Professional Experience
 
 - Tabia Health - Software Development Intern (December 2022 - Present)
 - MRS Logística - Web Development Intern (April 2022 - December 2022)
