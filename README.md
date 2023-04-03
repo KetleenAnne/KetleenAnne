@@ -1,12 +1,30 @@
-## Hi! I'm Ketleen Anne! 👋
-- 🔭 I'm Computer Science student at the Federal University of Juiz de Fora, a web development intern at Tabia Health.
-- 🌱 I am learning and improving knowledge in C, C++, Java, JavaScript
+# Ketleen Anne Faria 👩‍💻
 
+Hello! 👋 I'm Ketleen Anne Faria, a student of Exact Sciences and Computer Science at the Federal University of Juiz de Fora and currently a software development intern at Tabia Health.
 
+## Education
 
+- Bachelor's Degree in Exact Sciences - Federal University of Juiz de Fora (2019 - Present)
+- Bachelor's Degree in Computer Science - Federal University of Juiz de Fora (2019 - Present)
 
+## Professional Experience
 
+- Tabia Health - Software Development Intern (December 2022 - Present)
+- MRS Logística - Web Development Intern (April 2022 - December 2022)
 
+## Technical Skills
+
+- Programming Languages: Java, Python, C++, C, HTML, CSS.
+- Technologies: Spring Boot.
+- Database: SQL
+- Development Tools: Visual Studio Code, Git, IntelliJ, Netbeans
+
+## Contact
+
+- LinkedIn: [Ketleen Anne Faria](https://www.linkedin.com/in/ketleenannefaria/)
+- E-mail: ketleen@ice.ufjf.br
+
+## Github Stats
 
 <br> 
  <div>
@@ -23,25 +41,7 @@
   <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-
-  
-
 </div>
- 
- 
- 
-##
- 
- 
- <div> 
-  
-  <a href="https://www.instagram.com/ketleen_anne_/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href = "mailto:ketleen@ice.ufjf.br"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a></a>
-  <a href="https://www.linkedin.com/in/ketleenannefaria/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-
- 
-<img align="center"  src="https://c.tenor.com/KjVxfRrrncUAAAAd/matrix.gif">
-</div
 
 <!--
 **0ket/0ket** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
