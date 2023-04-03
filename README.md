@@ -3,7 +3,7 @@
 
 Hello! 👋 I'm Ketleen Anne Faria, a student of Exact Sciences and Computer Science at the Federal University of Juiz de Fora and currently a software development intern at Tabia Health.
 
-## Education
+# Education
 
 - Bachelor's Degree in Exact Sciences - Federal University of Juiz de Fora (2019 - Present)
 - Bachelor's Degree in Computer Science - Federal University of Juiz de Fora (2019 - Present)
@@ -13,19 +13,19 @@ Hello! 👋 I'm Ketleen Anne Faria, a student of Exact Sciences and Computer Sci
 - Tabia Health - Software Development Intern (December 2022 - Present)
 - MRS Logística - Web Development Intern (April 2022 - December 2022)
 
-## Technical Skills
+# Technical Skills
 
 - Programming Languages: Java, Python, C++, C, HTML, CSS.
 - Technologies: Spring Boot.
 - Database: SQL
 - Development Tools: Visual Studio Code, Git, IntelliJ, Netbeans
 
-## Contact
+# Contact
 
 - LinkedIn: [Ketleen Anne Faria](https://www.linkedin.com/in/ketleenannefaria/)
 - E-mail: ketleen@ice.ufjf.br
 
-## Github Stats
+# Github Stats
 
 <br> 
  <div>
