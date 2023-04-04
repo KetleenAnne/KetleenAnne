@@ -10,8 +10,8 @@ Hello! 👋 I'm Ketleen Anne Faria, a student of Exact Sciences and Computer Sci
 
 ### Professional Experience
 
-- Tabia Health - Software Development Intern (December 2022 - Present)
-- MRS Logística - Web Development Intern (April 2022 - December 2022)
+- Tabia Health - Development Intern (December 2022 - Present)
+- MRS Logística - Development Intern (April 2022 - December 2022)
 
 ### Technical Skills
 
