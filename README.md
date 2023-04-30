@@ -8,9 +8,9 @@ Hello! 👋 I'm Ketleen Anne Faria, a student of Exact Sciences and Computer Sci
 - Bachelor's Degree in Exact Sciences - Federal University of Juiz de Fora (2019 - Present)
 - Bachelor's Degree in Computer Science - Federal University of Juiz de Fora (2019 - Present)
 
-al Experience
+### Professional Experience
 
-ntern (December 2022 - Present)
+- Tabia Health - Development Intern (December 2022 - Present)
 - MRS Logística - Development Intern (April 2022 - December 2022)
 
 ### Technical Skills
@@ -30,7 +30,7 @@ ntern (December 2022 - Present)
 <br> 
  <div>
   <a href="https://github.com/KetleenAnne">
-  <     img      height = "180em"      src = " https://github-readme-stats.vercel.app/api?username=KetleenAnne&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"     /     >   
+  <img height="180em" src=" https://github-readme-stats.vercel.app/api?username=KetleenAnne&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>   
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KetleenAnne&layout=compact&langs_count=7&theme=dracula"/>
 </div>
 
