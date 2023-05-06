@@ -22,7 +22,7 @@ Hello! 👋 I'm Ketleen Anne Faria, a student of Exact Sciences and Computer Sci
 
 ### Contact
 
-- LinkedIn: [Ketleen Anne Faria]()
+- LinkedIn: [Ketleen Anne Faria](https://www.linkedin.com/in/ketleenannefaria/)
 - E-mail: ketleen@ice.ufjf.br
 
 ### Github Stats
@@ -44,7 +44,9 @@ Hello! 👋 I'm Ketleen Anne Faria, a student of Exact Sciences and Computer Sci
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
  
- ![Snake animation](https://github.com/KetleenAnne/KetleenAnne/blob/main/github-contribution-grid-snake.svg)
+ <br>
+
+ ![Snake animation](https://github.com/KetleenAnne/KetleenAnne/blob/output/github-contribution-grid-snake.svg)
 
 
 <!--
