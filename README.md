@@ -17,22 +17,6 @@ Hello! 👋 I'm Ketleen Anne Faria, a student of Exact Sciences and Computer Sci
 - **MRS Logística** - Software Development Intern (April 2022 - December 2022)
   - Bug fixing, code maintenance, performance optimizations, software documentation, incident logging, and development with C++ and SQL.
 
-
-## 🛠️ Technical Skills
-
-- **Programming Languages:**
-Java, C++, C, JavaScript, TypeScript
-- **Frameworks and Libraries:**
-Spring Boot, Hibernate, Junit, Mockito, Swagger, React
-- **Web Development:**
-HTML, CSS
-- **Databases:**
-SQL, PostgreSQL
-- **Tools and Platforms:**
-Git, GitHub, IntelliJ, Visual Studio Code, NetBeans
-- **Operating Systems:**
-Linux, Windows
-
 ### Contact
 
 - LinkedIn: [Ketleen Anne Faria](https://www.linkedin.com/in/ketleenannefaria/)
