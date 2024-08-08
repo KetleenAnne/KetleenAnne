@@ -3,27 +3,40 @@
 
 Hello! 👋 I'm Ketleen Anne Faria, a student of Exact Sciences and Computer Science at the Federal University of Juiz de Fora and currently a software development intern at Tabia Health.
 
-### Education
+## 🎓 Education
 
-- Bachelor's Degree in Exact Sciences - Federal University of Juiz de Fora (2019 - Present)
-- Bachelor's Degree in Computer Science - Federal University of Juiz de Fora (2019 - Present)
+- **Bachelor's Degree in Exact Sciences** - Federal University of Juiz de Fora (2019 - Present)
+- **Bachelor's Degree in Computer Science** - Federal University of Juiz de Fora (2020 - Present)
 
-### Professional Experience
+## 💼 Professional Experience
 
-- Tabia Health - Development Intern (December 2022 - Present)
-- MRS Logística - Development Intern (April 2022 - December 2022)
+- **Tabia Health** - Software Development Intern (December 2022 - Present)
+  - Research, design, and implementation of software systems, software testing, system evaluation, code review, bug fixing, usability improvement, and performance optimization.
+  - **Technologies Used:** Java, Spring Boot, Git, GitHub, Linux, Junit, Mockito, SQL, PostgreSQL, Hibernate, HTML, CSS, JavaScript, React, TypeScript, Swagger, IntelliJ.
 
-### Technical Skills
+- **MRS Logística** - Software Development Intern (April 2022 - December 2022)
+  - Bug fixing, code maintenance, performance optimizations, software documentation, incident logging, and development with C++ and SQL.
 
-- Programming Languages: Java, C++, C.
-- Technologies: Spring Boot.
-- Database: SQL
-- Development Tools: Visual Studio Code, Git, IntelliJ, Netbeans
+
+## 🛠️ Technical Skills
+
+- **Programming Languages:**
+Java, C++, C, JavaScript, TypeScript
+- **Frameworks and Libraries:**
+Spring Boot, Hibernate, Junit, Mockito, Swagger, React
+- **Web Development:**
+HTML, CSS
+- **Databases:**
+SQL, PostgreSQL
+- **Tools and Platforms:**
+Git, GitHub, IntelliJ, Visual Studio Code, NetBeans
+- **Operating Systems:**
+Linux, Windows
 
 ### Contact
 
 - LinkedIn: [Ketleen Anne Faria](https://www.linkedin.com/in/ketleenannefaria/)
-- E-mail: ketleen@ice.ufjf.br
+- E-mail: ketleen@ice.ufjf.br / ketleenanne.faria@gmail.com
 
 ### Github Stats
 
@@ -34,25 +47,47 @@ Hello! 👋 I'm Ketleen Anne Faria, a student of Exact Sciences and Computer Sci
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KetleenAnne&layout=compact&langs_count=7&theme=dracula"/>
 </div>
 
-<div style="display: inline_block"><br>
+## 🧰 Tools & Technologies
+
+<div style="display: inline_block">
+  <h5>Programming Languages</h5>
   <img align="center" alt="Java" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg">
   <img align="center" alt="Cplusplus" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg">
   <img align="center" alt="C" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg">
+  <img align="center" alt="JavaScript" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="TypeScript" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-plain.svg">
 </div>
 
+<div style="display: inline_block">
+ <h5>Frameworks and Libraries</h5>
+  <img align="center" alt="Spring" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original.svg">
+  <img align="center" alt="Hibernate" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/hibernate/hibernate-plain.svg">
+  <img align="center" alt="Junit" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/junit/junit-plain.svg">
+  <img align="center" alt="React" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg">
+  <img align="center" alt="Swagger" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/swagger/swagger-original.svg">
+</div>
 
+<div style="display: inline_block">
+  <h5>Web Development</h5>
+  <img align="center" alt="HTML" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg">
+</div>
 
-<!--
-**0ket/0ket** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div style="display: inline_block">
+  <h5>Databases</h5>
+  <img align="center" alt="SQL" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-plain.svg">
+</div>
 
-Here are some ideas to get you started:
+<div style="display: inline_block">
+   <h5>Tools and Platforms</h5>
+  <img align="center" alt="Git" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg">
+  <img align="center" alt="GitHub" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg">
+  <img align="center" alt="IntelliJ" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original.svg">
+  <img align="center" alt="VSCode" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg">
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div style="display: inline_block">
+    <h5>Operating Systems</h5>
+  <img align="center" alt="Linux" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg">
+  <img align="center" alt="Windows" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/windows11/windows11-original.svg">
+</div>
