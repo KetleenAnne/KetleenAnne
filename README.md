@@ -9,8 +9,9 @@ Hello! 👋 I'm Ketleen Anne Faria, a student of Exact Sciences and Computer Sci
 - **Bachelor's Degree in Computer Science** - Federal University of Juiz de Fora (2020 - Present)
 
 ### 💼 Professional Experience
-
-- **Tabia Health** - Software Development Intern (December 2022 - Present)
+- **Tabia Health** - Junior Software Development (September 2023 - Present)
+  - |
+- **Tabia Health** - Software Development Intern (December 2022 - September 2023)
   - Research, design, and implementation of software systems, software testing, system evaluation, code review, bug fixing, usability improvement, and performance optimization.
   - **Technologies Used:** Java, Spring Boot, Git, GitHub, Linux, Junit, Mockito, SQL, PostgreSQL, Hibernate, HTML, CSS, JavaScript, React, TypeScript, Swagger, IntelliJ.
 
@@ -20,7 +21,7 @@ Hello! 👋 I'm Ketleen Anne Faria, a student of Exact Sciences and Computer Sci
 ### 🌐 Contact
 
 - LinkedIn: [Ketleen Anne Faria](https://www.linkedin.com/in/ketleenannefaria/)
-- E-mail: ketleen@ice.ufjf.br / ketleenanne.faria@gmail.com
+- E-mail: ketleenanne.faria@gmail.com
 
 ### 🧰 Tools & Technologies
 
@@ -60,13 +61,6 @@ Hello! 👋 I'm Ketleen Anne Faria, a student of Exact Sciences and Computer Sci
   <img align="center" alt="IntelliJ" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original.svg">
   <img align="center" alt="VSCode" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg">
 </div>
-
-<div style="display: inline_block">
-    <h5>Operating Systems</h5>
-  <img align="center" alt="Linux" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg">
-  <img align="center" alt="Windows" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/windows11/windows11-original.svg">
-</div>
-
 
 ### Github Stats
 
