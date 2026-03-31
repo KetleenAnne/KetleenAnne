@@ -9,8 +9,8 @@ Hello! 👋 I'm Ketleen Anne Faria, a student of Exact Sciences and Computer Sci
 - **Bachelor's Degree in Computer Science** - Federal University of Juiz de Fora (2020 - Present)
 
 ### 💼 Professional Experience
-- **Tabia Health** - Junior Software Development (September 2023 - Present)
-- **Tabia Health** - Software Development Intern (December 2022 - September 2023)
+- **Tabia Health** - Junior Software Development (September 2024 - Present)
+- **Tabia Health** - Software Development Intern (December 2022 - September 2024)
   - Research, design, and implementation of software systems, software testing, system evaluation, code review, bug fixing, usability improvement, and performance optimization.
   - **Technologies Used:** Java, Spring Boot, Git, GitHub, Linux, Junit, Mockito, SQL, PostgreSQL, Hibernate, HTML, CSS, JavaScript, React, TypeScript, Swagger, IntelliJ.
 
