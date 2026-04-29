@@ -1,7 +1,7 @@
 # Ketleen Anne Faria 👩‍💻
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
-Hello! 👋 I'm Ketleen Anne Faria, a student of Exact Sciences and Computer Science at the Federal University of Juiz de Fora and currently a software development intern at Tabia Health.
+Hello! 👋 I'm Ketleen Anne Faria, a student of Exact Sciences and Computer Science at the Federal University of Juiz de Fora and currently a software development at Tabia Health.
 
 ### 🎓 Education
 
