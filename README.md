@@ -109,7 +109,7 @@ Small, public projects built to show how I work (synthetic data only, no company
 
 | Project · Projeto | What it shows · O que mostra | Status |
 |---|---|---|
-| 🐘 `postgres-performance-lab` | Slow query → `EXPLAIN ANALYZE` → fix → measured before/after · Consulta lenta → correção → antes e depois medidos | ![soon](https://img.shields.io/badge/status-coming_soon-ec4899?style=flat-square) |
+| 🐘 [`postgres-query-optimization`](https://github.com/KetleenAnne/postgres-query-optimization) | 4 slow queries → `EXPLAIN ANALYZE` → fix → measured before/after (up to ~300x) · 4 consultas lentas → correção → antes e depois medidos | ![ready](https://img.shields.io/badge/status-ready-22c55e?style=flat-square) |
 | 🤖 AI bug triage API | LLM inside a Spring Boot backend, with tests · LLM em um backend Spring Boot, com testes | ![soon](https://img.shields.io/badge/status-coming_soon-ec4899?style=flat-square) |
 
 <img src="assets/divider.svg" alt="" width="100%"/>
