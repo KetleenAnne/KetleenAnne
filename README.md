@@ -127,24 +127,48 @@ Small, public projects built to show how I work (synthetic data only, no company
 
 **📖 Studying now · Estudando agora:** Clean Code, TDD, SOLID, System Design, Design Patterns
 
-**🔖 Tech reading list · Lista de leitura técnica** _(on my list, not all read yet · na minha lista, ainda nem todos lidos)_
+<!-- SHELF:START -->
 
-| | Book · Livro | Why · Por quê |
-|---|---|---|
-| 🧼 | _Clean Code_ — Robert C. Martin | Readable code · Código legível |
-| 🛠️ | _The Pragmatic Programmer_ — Hunt & Thomas | Craft and habits · Ofício e hábitos |
-| ☕ | _Effective Java_ — Joshua Bloch | Java done right · Java do jeito certo |
-| 🔧 | _Refactoring_ — Martin Fowler | Improving existing code · Melhorar código existente |
-| 🧪 | _Test-Driven Development: By Example_ — Kent Beck | Tests first · Testes primeiro |
-| 🐘 | _SQL Performance Explained_ — Markus Winand | Pairs with my [PostgreSQL lab](https://github.com/KetleenAnne/postgres-query-optimization) · Combina com meu laboratório de PostgreSQL |
-| 🏛️ | _Clean Architecture_ — Robert C. Martin | Structure and boundaries · Estrutura e limites |
-| 🌐 | _Designing Data-Intensive Applications_ — Martin Kleppmann | How data systems really work · Como sistemas de dados funcionam de verdade |
+📊 **0 read · lidos** &nbsp;|&nbsp; **0 reading · lendo** &nbsp;|&nbsp; **19 to read · na fila**
 
-**🌱 Mind & habits · Mente e hábitos:** _Atomic Habits_ (James Clear) · _Deep Work_ (Cal Newport) · _Mindset_ (Carol Dweck)
+**✅ Read · Lidos**
+- _Nothing yet — the first check ✔️ is coming! · Ainda nada — o primeiro ✔️ vem aí!_
 
-**🐱 Off-duty reading list · Leituras fora do expediente:** _Querida Konbini_ · _1984_ · _A revolução dos bichos_ · _O sol é para todos_ · _Capitães da Areia_ · _Maus_ · _Crime e Castigo_ · _Meditações_
+**📖 Reading now · Lendo agora**
+- _—_
+
+**🔖 To read · Na fila**
+
+_🧑‍💻 Tech · Tecnologia_
+- _Clean Code_ — Robert C. Martin · Readable code · Código legível
+- _The Pragmatic Programmer_ — Andrew Hunt & David Thomas · Craft and habits · Ofício e hábitos
+- _Effective Java_ — Joshua Bloch · Java done right · Java do jeito certo
+- _Refactoring_ — Martin Fowler · Improving existing code · Melhorar código existente
+- _Test-Driven Development: By Example_ — Kent Beck · Tests first · Testes primeiro
+- _SQL Performance Explained_ — Markus Winand · Pairs with my PostgreSQL lab · Combina com meu laboratório de PostgreSQL
+- _Clean Architecture_ — Robert C. Martin · Structure and boundaries · Estrutura e limites
+- _Designing Data-Intensive Applications_ — Martin Kleppmann · How data systems really work · Como sistemas de dados funcionam
+
+_🌱 Mind & habits · Mente e hábitos_
+- _Atomic Habits_ — James Clear
+- _Deep Work_ — Cal Newport
+- _Mindset_ — Carol S. Dweck
+
+_🐱 Off-duty · Fora do expediente_
+- _Querida Konbini_ — Murata Sayaka
+- _1984_ — George Orwell
+- _A revolução dos bichos_ — George Orwell
+- _O sol é para todos_ — Harper Lee
+- _Capitães da Areia_ — Jorge Amado
+- _Maus_ — Art Spiegelman
+- _Crime e Castigo_ — Fiódor Dostoiévski
+- _Meditações_ — Marco Aurélio
+
+<!-- SHELF:END -->
 
 💡 Recommendations welcome! · Indicações são bem-vindas!
+
+<sub>This shelf updates itself from [`data/books.md`](data/books.md) · Esta estante se atualiza sozinha a partir de [`data/books.md`](data/books.md)</sub>
 
 </details>
 
