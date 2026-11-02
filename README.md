@@ -129,7 +129,7 @@ Small, public projects built to show how I work (synthetic data only, no company
 
 <!-- SHELF:START -->
 
-📊 **1 read · lidos** &nbsp;|&nbsp; **3 reading · lendo** &nbsp;|&nbsp; **34 to read · na fila**
+📊 **1 read · lidos** &nbsp;|&nbsp; **3 reading · lendo** &nbsp;|&nbsp; **43 to read · na fila**
 
 **✅ Read · Lidos**
 - _Capitães da Areia_ — Jorge Amado
@@ -159,6 +159,11 @@ _🧑‍💻 Tech · Tecnologia_
 - _A Philosophy of Software Design_ — John Ousterhout · Keeping complexity under control · Manter a complexidade sob controle
 - _Unit Testing Principles, Practices, and Patterns_ — Vladimir Khorikov · What and how to test · O que e como testar
 - _PostgreSQL Query Optimization_ — Henrietta Dombrovskaya et al. · Next step after my PostgreSQL lab · Próximo passo depois do meu laboratório de PostgreSQL
+- _Build a Large Language Model (From Scratch)_ — Sebastian Raschka · Build an LLM step by step · Construir um LLM passo a passo
+- _Hands-On Large Language Models_ — Jay Alammar & Maarten Grootendorst · Visual, practical guide to LLMs · Guia visual e prático de LLMs
+- _Software Engineering at Google_ — Titus Winters, Tom Manshreck & Hyrum Wright · Code that lasts for years · Código que dura anos
+- _Cracking the Coding Interview_ — Gayle Laakmann McDowell · Technical interview practice · Treino para entrevista técnica
+- _System Design Interview_ — Alex Xu · System design practice · Treino de system design
 
 _🌱 Mind & habits · Mente e hábitos_
 - _Atomic Habits_ — James Clear
@@ -180,6 +185,10 @@ _🐱 Off-duty · Fora do expediente_
 - _Fahrenheit 451_ — Ray Bradbury
 - _Os Testamentos_ — Margaret Atwood
 - _Memórias do Subsolo_ — Fiódor Dostoiévski
+- _Antes que o Café Esfrie_ — Toshikazu Kawaguchi
+- _O Gato que Salvava Livros_ — Sosuke Natsukawa
+- _The World Atlas of Coffee_ — James Hoffmann
+- _Cosmos_ — Carl Sagan
 
 <!-- SHELF:END -->
 

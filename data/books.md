@@ -29,6 +29,11 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 - [ ] A Philosophy of Software Design | John Ousterhout | Keeping complexity under control · Manter a complexidade sob controle
 - [ ] Unit Testing Principles, Practices, and Patterns | Vladimir Khorikov | What and how to test · O que e como testar
 - [ ] PostgreSQL Query Optimization | Henrietta Dombrovskaya et al. | Next step after my PostgreSQL lab · Próximo passo depois do meu laboratório de PostgreSQL
+- [ ] Build a Large Language Model (From Scratch) | Sebastian Raschka | Build an LLM step by step · Construir um LLM passo a passo
+- [ ] Hands-On Large Language Models | Jay Alammar & Maarten Grootendorst | Visual, practical guide to LLMs · Guia visual e prático de LLMs
+- [ ] Software Engineering at Google | Titus Winters, Tom Manshreck & Hyrum Wright | Code that lasts for years · Código que dura anos
+- [ ] Cracking the Coding Interview | Gayle Laakmann McDowell | Technical interview practice · Treino para entrevista técnica
+- [ ] System Design Interview | Alex Xu | System design practice · Treino de system design
 
 ## 🌱 Mind & habits · Mente e hábitos
 - [ ] Atomic Habits | James Clear |
@@ -54,3 +59,7 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 - [ ] Fahrenheit 451 | Ray Bradbury |
 - [ ] Os Testamentos | Margaret Atwood |
 - [ ] Memórias do Subsolo | Fiódor Dostoiévski |
+- [ ] Antes que o Café Esfrie | Toshikazu Kawaguchi |
+- [ ] O Gato que Salvava Livros | Sosuke Natsukawa |
+- [ ] The World Atlas of Coffee | James Hoffmann |
+- [ ] Cosmos | Carl Sagan |
