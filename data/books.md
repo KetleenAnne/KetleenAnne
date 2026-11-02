@@ -20,11 +20,16 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 - [ ] SQL Performance Explained | Markus Winand | Pairs with my PostgreSQL lab · Combina com meu laboratório de PostgreSQL
 - [ ] Clean Architecture | Robert C. Martin | Structure and boundaries · Estrutura e limites
 - [ ] Designing Data-Intensive Applications | Martin Kleppmann | How data systems really work · Como sistemas de dados funcionam
+- [ ] Desenvolvimento Real de Software | Raoul-Gabriel Urma & Richard Warburton | Real-World Software Development: projetos de verdade, passo a passo
+- [ ] Entendendo Algoritmos | Aditya Y. Bhargava | Algoritmos com ilustrações e exemplos simples
+- [ ] Fundamentos da Arquitetura de Software | Mark Richards & Neal Ford | Estilos e trade-offs de arquitetura
+- [ ] Aprenda a Programar com C# | António Trigo & Jorge Henriques | Lógica de programação com C#
 
 ## 🌱 Mind & habits · Mente e hábitos
 - [ ] Atomic Habits | James Clear |
 - [ ] Deep Work | Cal Newport |
 - [ ] Mindset | Carol S. Dweck |
+- [ ] Pense como um Cientista de Foguetes | Ozan Varol | Resolver problemas novos com mentalidade de cientista
 
 ## 🐱 Off-duty · Fora do expediente
 - [ ] Querida Konbini | Murata Sayaka |
@@ -35,3 +40,8 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 - [ ] Maus | Art Spiegelman |
 - [ ] Crime e Castigo (lendo) | Fiódor Dostoiévski |
 - [ ] Meditações | Marco Aurélio |
+- [ ] O Conto da Aia | Margaret Atwood |
+- [ ] O Mundo de Sofia | Jostein Gaarder |
+- [ ] O Caminho para Wigan Pier | George Orwell |
+- [ ] Ensaios | George Orwell |
+- [ ] Dentro da Baleia e Outros Ensaios | George Orwell |

@@ -129,7 +129,7 @@ Small, public projects built to show how I work (synthetic data only, no company
 
 <!-- SHELF:START -->
 
-📊 **1 read · lidos** &nbsp;|&nbsp; **3 reading · lendo** &nbsp;|&nbsp; **15 to read · na fila**
+📊 **1 read · lidos** &nbsp;|&nbsp; **3 reading · lendo** &nbsp;|&nbsp; **25 to read · na fila**
 
 **✅ Read · Lidos**
 - _Capitães da Areia_ — Jorge Amado
@@ -150,17 +150,27 @@ _🧑‍💻 Tech · Tecnologia_
 - _SQL Performance Explained_ — Markus Winand · Pairs with my PostgreSQL lab · Combina com meu laboratório de PostgreSQL
 - _Clean Architecture_ — Robert C. Martin · Structure and boundaries · Estrutura e limites
 - _Designing Data-Intensive Applications_ — Martin Kleppmann · How data systems really work · Como sistemas de dados funcionam
+- _Desenvolvimento Real de Software_ — Raoul-Gabriel Urma & Richard Warburton · Real-World Software Development: projetos de verdade, passo a passo
+- _Entendendo Algoritmos_ — Aditya Y. Bhargava · Algoritmos com ilustrações e exemplos simples
+- _Fundamentos da Arquitetura de Software_ — Mark Richards & Neal Ford · Estilos e trade-offs de arquitetura
+- _Aprenda a Programar com C#_ — António Trigo & Jorge Henriques · Lógica de programação com C#
 
 _🌱 Mind & habits · Mente e hábitos_
 - _Atomic Habits_ — James Clear
 - _Deep Work_ — Cal Newport
 - _Mindset_ — Carol S. Dweck
+- _Pense como um Cientista de Foguetes_ — Ozan Varol · Resolver problemas novos com mentalidade de cientista
 
 _🐱 Off-duty · Fora do expediente_
 - _Querida Konbini_ — Murata Sayaka
 - _O sol é para todos_ — Harper Lee
 - _Maus_ — Art Spiegelman
 - _Meditações_ — Marco Aurélio
+- _O Conto da Aia_ — Margaret Atwood
+- _O Mundo de Sofia_ — Jostein Gaarder
+- _O Caminho para Wigan Pier_ — George Orwell
+- _Ensaios_ — George Orwell
+- _Dentro da Baleia e Outros Ensaios_ — George Orwell
 
 <!-- SHELF:END -->
 
