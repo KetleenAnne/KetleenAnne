@@ -24,6 +24,11 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 - [ ] Entendendo Algoritmos | Aditya Y. Bhargava | Algoritmos com ilustrações e exemplos simples
 - [ ] Fundamentos da Arquitetura de Software | Mark Richards & Neal Ford | Estilos e trade-offs de arquitetura
 - [ ] Aprenda a Programar com C# | António Trigo & Jorge Henriques | Lógica de programação com C#
+- [ ] AI Engineering | Chip Huyen | Building applications with foundation models · Construir aplicações com modelos de IA
+- [ ] Release It! | Michael T. Nygard | Resilient production systems: timeouts, fallbacks · Sistemas resilientes em produção
+- [ ] A Philosophy of Software Design | John Ousterhout | Keeping complexity under control · Manter a complexidade sob controle
+- [ ] Unit Testing Principles, Practices, and Patterns | Vladimir Khorikov | What and how to test · O que e como testar
+- [ ] PostgreSQL Query Optimization | Henrietta Dombrovskaya et al. | Next step after my PostgreSQL lab · Próximo passo depois do meu laboratório de PostgreSQL
 
 ## 🌱 Mind & habits · Mente e hábitos
 - [ ] Atomic Habits | James Clear |
@@ -45,3 +50,7 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 - [ ] O Caminho para Wigan Pier | George Orwell |
 - [ ] Ensaios | George Orwell |
 - [ ] Dentro da Baleia e Outros Ensaios | George Orwell |
+- [ ] Admirável Mundo Novo | Aldous Huxley |
+- [ ] Fahrenheit 451 | Ray Bradbury |
+- [ ] Os Testamentos | Margaret Atwood |
+- [ ] Memórias do Subsolo | Fiódor Dostoiévski |

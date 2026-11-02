@@ -129,7 +129,7 @@ Small, public projects built to show how I work (synthetic data only, no company
 
 <!-- SHELF:START -->
 
-📊 **1 read · lidos** &nbsp;|&nbsp; **3 reading · lendo** &nbsp;|&nbsp; **25 to read · na fila**
+📊 **1 read · lidos** &nbsp;|&nbsp; **3 reading · lendo** &nbsp;|&nbsp; **34 to read · na fila**
 
 **✅ Read · Lidos**
 - _Capitães da Areia_ — Jorge Amado
@@ -154,6 +154,11 @@ _🧑‍💻 Tech · Tecnologia_
 - _Entendendo Algoritmos_ — Aditya Y. Bhargava · Algoritmos com ilustrações e exemplos simples
 - _Fundamentos da Arquitetura de Software_ — Mark Richards & Neal Ford · Estilos e trade-offs de arquitetura
 - _Aprenda a Programar com C#_ — António Trigo & Jorge Henriques · Lógica de programação com C#
+- _AI Engineering_ — Chip Huyen · Building applications with foundation models · Construir aplicações com modelos de IA
+- _Release It!_ — Michael T. Nygard · Resilient production systems: timeouts, fallbacks · Sistemas resilientes em produção
+- _A Philosophy of Software Design_ — John Ousterhout · Keeping complexity under control · Manter a complexidade sob controle
+- _Unit Testing Principles, Practices, and Patterns_ — Vladimir Khorikov · What and how to test · O que e como testar
+- _PostgreSQL Query Optimization_ — Henrietta Dombrovskaya et al. · Next step after my PostgreSQL lab · Próximo passo depois do meu laboratório de PostgreSQL
 
 _🌱 Mind & habits · Mente e hábitos_
 - _Atomic Habits_ — James Clear
@@ -171,6 +176,10 @@ _🐱 Off-duty · Fora do expediente_
 - _O Caminho para Wigan Pier_ — George Orwell
 - _Ensaios_ — George Orwell
 - _Dentro da Baleia e Outros Ensaios_ — George Orwell
+- _Admirável Mundo Novo_ — Aldous Huxley
+- _Fahrenheit 451_ — Ray Bradbury
+- _Os Testamentos_ — Margaret Atwood
+- _Memórias do Subsolo_ — Fiódor Dostoiévski
 
 <!-- SHELF:END -->
 
