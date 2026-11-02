@@ -42,20 +42,18 @@ def item(b, with_why=True):
 
 
 def build(sections):
-    allb = [(s["title"], b) for s in sections for b in s["books"]]
-    read = [x for x in allb if x[1]["status"] == "read"]
-    now = [x for x in allb if x[1]["status"] == "reading"]
-    todo = [s for s in sections if any(b["status"] == "todo" for b in s["books"])]
-    out = [f"📊 **{len(read)} read · lidos** &nbsp;|&nbsp; **{len(now)} reading · lendo** "
-           f"&nbsp;|&nbsp; **{sum(1 for x in allb if x[1]['status']=='todo')} to read · na fila**", ""]
-    out.append("**✅ Read · Lidos**")
-    out += [item(b, False) for _, b in read] or ["- _Nothing yet — the first check ✔️ is coming! · Ainda nada — o primeiro ✔️ vem aí!_"]
-    out += ["", "**📖 Reading now · Lendo agora**"]
-    out += [item(b) for _, b in now] or ["- _—_"]
-    out += ["", "**🔖 To read · Na fila**"]
-    for s in todo:
-        out += ["", f"_{s['title']}_"]
-        out += [item(b) for b in s["books"] if b["status"] == "todo"]
+    allb = [b for s in sections for b in s["books"]]
+    read = [b for b in allb if b["status"] == "read"]
+    now = [b for b in allb if b["status"] == "reading"]
+    todo = [b for b in allb if b["status"] == "todo"]
+    out = ["**\U0001F4D6 Reading now \u00b7 Lendo agora**"]
+    out += [item(b, False) for b in now] or ["- _\u2014_"]
+    out += ["", "**\U0001F516 Next up \u00b7 Pr\u00f3ximos**"]
+    out += [item(b) for b in todo[:5]] or ["- _\u2014_"]
+    if read:
+        out += ["", f"**\u2705 Read \u00b7 Lidos ({len(read)})**"]
+        out += [item(b, False) for b in read[-5:]]
+    out += ["", f"\U0001F4DA [Full list \u00b7 Lista completa ({len(allb)} books)](data/books.md)"]
     return "\n".join(out)
 
 

@@ -122,79 +122,39 @@ Small, public projects built to show how I work (synthetic data only, no company
   > ^ <      books:        always one more on the pile
 ```
 
-<details>
-<summary>📚 <b>Bookshelf · Estante</b> (click to open)</summary>
+<div align="center">
+  <img src="assets/shelf.svg" alt="Illustrated bookshelf with Gael the cat; read books have a gold star, books being read lean with a red ribbon" width="860"/>
+</div>
 
-**📖 Studying now · Estudando agora:** Clean Code, TDD, SOLID, System Design, Design Patterns
+<details>
+<summary>📚 <b>Reading now &amp; next · Lendo agora e próximos</b> (click to open)</summary>
+
+**🎓 Studying now · Estudando agora:** Clean Code, TDD, SOLID, System Design, Design Patterns
 
 <!-- SHELF:START -->
-
-📊 **1 read · lidos** &nbsp;|&nbsp; **3 reading · lendo** &nbsp;|&nbsp; **43 to read · na fila**
-
-**✅ Read · Lidos**
-- _Capitães da Areia_ — Jorge Amado
 
 **📖 Reading now · Lendo agora**
 - _1984_ — George Orwell
 - _A revolução dos bichos_ — George Orwell
 - _Crime e Castigo_ — Fiódor Dostoiévski
 
-**🔖 To read · Na fila**
-
-_🧑‍💻 Tech · Tecnologia_
+**🔖 Next up · Próximos**
 - _Clean Code_ — Robert C. Martin · Readable code · Código legível
 - _The Pragmatic Programmer_ — Andrew Hunt & David Thomas · Craft and habits · Ofício e hábitos
 - _Effective Java_ — Joshua Bloch · Java done right · Java do jeito certo
 - _Refactoring_ — Martin Fowler · Improving existing code · Melhorar código existente
 - _Test-Driven Development: By Example_ — Kent Beck · Tests first · Testes primeiro
-- _SQL Performance Explained_ — Markus Winand · Pairs with my PostgreSQL lab · Combina com meu laboratório de PostgreSQL
-- _Clean Architecture_ — Robert C. Martin · Structure and boundaries · Estrutura e limites
-- _Designing Data-Intensive Applications_ — Martin Kleppmann · How data systems really work · Como sistemas de dados funcionam
-- _Desenvolvimento Real de Software_ — Raoul-Gabriel Urma & Richard Warburton · Real-World Software Development: projetos de verdade, passo a passo
-- _Entendendo Algoritmos_ — Aditya Y. Bhargava · Algoritmos com ilustrações e exemplos simples
-- _Fundamentos da Arquitetura de Software_ — Mark Richards & Neal Ford · Estilos e trade-offs de arquitetura
-- _Aprenda a Programar com C#_ — António Trigo & Jorge Henriques · Lógica de programação com C#
-- _AI Engineering_ — Chip Huyen · Building applications with foundation models · Construir aplicações com modelos de IA
-- _Release It!_ — Michael T. Nygard · Resilient production systems: timeouts, fallbacks · Sistemas resilientes em produção
-- _A Philosophy of Software Design_ — John Ousterhout · Keeping complexity under control · Manter a complexidade sob controle
-- _Unit Testing Principles, Practices, and Patterns_ — Vladimir Khorikov · What and how to test · O que e como testar
-- _PostgreSQL Query Optimization_ — Henrietta Dombrovskaya et al. · Next step after my PostgreSQL lab · Próximo passo depois do meu laboratório de PostgreSQL
-- _Build a Large Language Model (From Scratch)_ — Sebastian Raschka · Build an LLM step by step · Construir um LLM passo a passo
-- _Hands-On Large Language Models_ — Jay Alammar & Maarten Grootendorst · Visual, practical guide to LLMs · Guia visual e prático de LLMs
-- _Software Engineering at Google_ — Titus Winters, Tom Manshreck & Hyrum Wright · Code that lasts for years · Código que dura anos
-- _Cracking the Coding Interview_ — Gayle Laakmann McDowell · Technical interview practice · Treino para entrevista técnica
-- _System Design Interview_ — Alex Xu · System design practice · Treino de system design
 
-_🌱 Mind & habits · Mente e hábitos_
-- _Atomic Habits_ — James Clear
-- _Deep Work_ — Cal Newport
-- _Mindset_ — Carol S. Dweck
-- _Pense como um Cientista de Foguetes_ — Ozan Varol · Resolver problemas novos com mentalidade de cientista
+**✅ Read · Lidos (1)**
+- _Capitães da Areia_ — Jorge Amado
 
-_🐱 Off-duty · Fora do expediente_
-- _Querida Konbini_ — Murata Sayaka
-- _O sol é para todos_ — Harper Lee
-- _Maus_ — Art Spiegelman
-- _Meditações_ — Marco Aurélio
-- _O Conto da Aia_ — Margaret Atwood
-- _O Mundo de Sofia_ — Jostein Gaarder
-- _O Caminho para Wigan Pier_ — George Orwell
-- _Ensaios_ — George Orwell
-- _Dentro da Baleia e Outros Ensaios_ — George Orwell
-- _Admirável Mundo Novo_ — Aldous Huxley
-- _Fahrenheit 451_ — Ray Bradbury
-- _Os Testamentos_ — Margaret Atwood
-- _Memórias do Subsolo_ — Fiódor Dostoiévski
-- _Antes que o Café Esfrie_ — Toshikazu Kawaguchi
-- _O Gato que Salvava Livros_ — Sosuke Natsukawa
-- _The World Atlas of Coffee_ — James Hoffmann
-- _Cosmos_ — Carl Sagan
+📚 [Full list · Lista completa (47 books)](data/books.md)
 
 <!-- SHELF:END -->
 
 💡 Recommendations welcome! · Indicações são bem-vindas!
 
-<sub>This shelf updates itself from [`data/books.md`](data/books.md) · Esta estante se atualiza sozinha a partir de [`data/books.md`](data/books.md)</sub>
+<sub>The shelf and this list update themselves from [`data/books.md`](data/books.md) · A estante e esta lista se atualizam sozinhas a partir de [`data/books.md`](data/books.md)</sub>
 
 </details>
 
