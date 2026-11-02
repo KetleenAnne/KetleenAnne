@@ -129,13 +129,15 @@ Small, public projects built to show how I work (synthetic data only, no company
 
 <!-- SHELF:START -->
 
-📊 **0 read · lidos** &nbsp;|&nbsp; **0 reading · lendo** &nbsp;|&nbsp; **19 to read · na fila**
+📊 **1 read · lidos** &nbsp;|&nbsp; **3 reading · lendo** &nbsp;|&nbsp; **15 to read · na fila**
 
 **✅ Read · Lidos**
-- _Nothing yet — the first check ✔️ is coming! · Ainda nada — o primeiro ✔️ vem aí!_
+- _Capitães da Areia_ — Jorge Amado
 
 **📖 Reading now · Lendo agora**
-- _—_
+- _1984_ — George Orwell
+- _A revolução dos bichos_ — George Orwell
+- _Crime e Castigo_ — Fiódor Dostoiévski
 
 **🔖 To read · Na fila**
 
@@ -156,12 +158,8 @@ _🌱 Mind & habits · Mente e hábitos_
 
 _🐱 Off-duty · Fora do expediente_
 - _Querida Konbini_ — Murata Sayaka
-- _1984_ — George Orwell
-- _A revolução dos bichos_ — George Orwell
 - _O sol é para todos_ — Harper Lee
-- _Capitães da Areia_ — Jorge Amado
 - _Maus_ — Art Spiegelman
-- _Crime e Castigo_ — Fiódor Dostoiévski
 - _Meditações_ — Marco Aurélio
 
 <!-- SHELF:END -->
