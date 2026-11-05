@@ -149,7 +149,7 @@ Small, public projects built to show how I work (synthetic data only, no company
 - _Capitães da Areia_ — Jorge Amado
 - _Noites Brancas_ — Fiódor Dostoiévski
 
-📚 [biblioKet: lista completa · full list (48 livros)](data/books.md)
+📚 [biblioKet: lista completa · full list (49 livros)](data/books.md)
 
 <!-- SHELF:END -->
 
