@@ -66,4 +66,4 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 - [ ] O Gato que Salvava Livros | Sosuke Natsukawa |
 - [ ] The World Atlas of Coffee | James Hoffmann |
 - [ ] Cosmos | Carl Sagan |
-- [ ] A Rainha Vermelha | Victoria Aveyard | sugestão de KetleenAnne
+- [X] A Rainha Vermelha | Victoria Aveyard | sugestão de KetleenAnne
