@@ -1,0 +1,40 @@
+name: "📚 Sugerir um livro · Suggest a book"
+description: "Indique um livro para a biblioKet · Recommend a book for biblioKet"
+title: "📚 Sugestão: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigada por indicar um livro para a **biblioKet**! ☕🐱
+        Thanks for recommending a book! If Ketleen approves it, it joins the shelf automatically.
+  - type: input
+    id: titulo
+    attributes:
+      label: "Título · Title"
+      placeholder: "Ex.: O Programador Pragmático"
+    validations:
+      required: true
+  - type: input
+    id: autor
+    attributes:
+      label: "Autor(a) · Author"
+      placeholder: "Ex.: Andrew Hunt & David Thomas"
+    validations:
+      required: true
+  - type: dropdown
+    id: tema
+    attributes:
+      label: "Tema · Topic"
+      options:
+        - "Tecnologia · Tech"
+        - "Mente e hábitos · Mind & habits"
+        - "Ficção e outros · Fiction & more"
+    validations:
+      required: true
+  - type: textarea
+    id: motivo
+    attributes:
+      label: "Por que você indica? · Why do you recommend it?"
+      description: "Uma frase curta · One short sentence"
+    validations:
+      required: false

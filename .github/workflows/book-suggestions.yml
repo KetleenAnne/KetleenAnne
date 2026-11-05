@@ -1,0 +1,62 @@
+name: Book suggestions
+
+on:
+  issues:
+    types: [opened, labeled]
+  workflow_dispatch:   # run once by hand to create the labels
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  labels:
+    if: github.event_name == 'workflow_dispatch' || (github.event.action == 'opened' && startsWith(github.event.issue.title, '📚 Sugestão'))
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Make sure the labels exist
+        run: |
+          gh label create "sugestão de livro" --color "c9a0dc" --description "Book suggestion for biblioKet" || true
+          gh label create "aprovado" --color "2ea44f" --description "Approved: add to biblioKet" || true
+      - name: Tag and thank the suggestion
+        if: github.event_name == 'issues'
+        env:
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue edit "$NUMBER" --add-label "sugestão de livro"
+          gh issue comment "$NUMBER" --body "Obrigada pela indicação! 📚🐱 A Ketleen vai dar uma olhada. · Thanks for the suggestion!"
+
+  add-book:
+    # only the owner can approve, by adding the "aprovado" label
+    if: github.event.action == 'labeled' && github.event.label.name == 'aprovado' && github.event.sender.login == github.repository_owner
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_REPO: ${{ github.repository }}
+      NUMBER: ${{ github.event.issue.number }}
+      ISSUE_BODY: ${{ github.event.issue.body }}
+      ISSUE_USER: ${{ github.event.issue.user.login }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Add the book and redraw the shelf
+        run: |
+          python scripts/add_suggestion.py
+          python scripts/update_shelf.py
+          python scripts/generate_shelf_svg.py
+      - name: Commit, push and close the issue
+        run: |
+          if ! git diff --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/books.md README.md assets/shelf.svg
+            git commit -m "chore: add suggested book from #$NUMBER"
+            git push
+          fi
+          gh issue comment "$NUMBER" --body "Entrou na biblioKet! ✅📚 Obrigada pela indicação. · Added to the shelf, thank you!"
+          gh issue close "$NUMBER"

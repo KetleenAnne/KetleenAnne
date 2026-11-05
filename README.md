@@ -127,7 +127,7 @@ Small, public projects built to show how I work (synthetic data only, no company
 </div>
 
 <details>
-<summary>📚 <b>Reading now &amp; next · Lendo agora e próximos</b> (click to open)</summary>
+<summary>📚 <b>biblioKet</b>: lendo agora e próximos · reading now &amp; next (click to open)</summary>
 
 **🎓 Studying now · Estudando agora:** Clean Code, TDD, SOLID, System Design, Design Patterns
 
@@ -145,14 +145,15 @@ Small, public projects built to show how I work (synthetic data only, no company
 - _Refactoring_ — Martin Fowler · Improving existing code · Melhorar código existente
 - _Test-Driven Development: By Example_ — Kent Beck · Tests first · Testes primeiro
 
-**✅ Read · Lidos (1)**
+**✅ Read · Lidos (2)**
 - _Capitães da Areia_ — Jorge Amado
+- _Noites Brancas_ — Fiódor Dostoiévski
 
-📚 [Full list · Lista completa (47 books)](data/books.md)
+📚 [biblioKet: lista completa · full list (48 livros)](data/books.md)
 
 <!-- SHELF:END -->
 
-💡 Recommendations welcome! · Indicações são bem-vindas!
+💡 [Sugira um livro para a biblioKet · Suggest a book](https://github.com/KetleenAnne/KetleenAnne/issues/new?template=sugerir-livro.yml)
 
 <sub>The shelf and this list update themselves from [`data/books.md`](data/books.md) · A estante e esta lista se atualizam sozinhas a partir de [`data/books.md`](data/books.md)</sub>
 

@@ -53,7 +53,7 @@ def build(sections):
     if read:
         out += ["", f"**\u2705 Read \u00b7 Lidos ({len(read)})**"]
         out += [item(b, False) for b in read[-5:]]
-    out += ["", f"\U0001F4DA [Full list \u00b7 Lista completa ({len(allb)} books)](data/books.md)"]
+    out += ["", f"\U0001F4DA [biblioKet: lista completa \u00b7 full list ({len(allb)} livros)](data/books.md)"]
     return "\n".join(out)
 
 

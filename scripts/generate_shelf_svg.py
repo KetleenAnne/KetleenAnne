@@ -282,8 +282,8 @@ def build():
         o.append(f'<circle cx="{sx}" cy="{sy}" r="1.5" fill="#fff"><animate attributeName="opacity" values=".2;1;.2" dur="3s" begin="{d}s" repeatCount="indefinite"/></circle>')
 
     rl = "lido" if counts["read"] == 1 else "lidos"
-    o.append(f'<text x="40" y="52" font-family={"Georgia,serif"!r} font-size="27" font-style="italic" fill="#f5d0fe">My bookshelf</text>')
-    o.append(f'<text x="40" y="78" font-family="{MONO}" font-size="13" fill="#c9c6f0" letter-spacing="1">minha estante \u00b7 '
+    o.append(f'<text x="40" y="52" font-family={"Georgia,serif"!r} font-size="27" font-style="italic" fill="#f5d0fe">biblioKet</text>')
+    o.append(f'<text x="40" y="78" font-family="{MONO}" font-size="13" fill="#c9c6f0" letter-spacing="1">a estante da Ketleen \u00b7 '
              f'{counts["read"]} {rl} \u00b7 {counts["reading"]} lendo \u00b7 {counts["todo"]} na fila</text>')
 
     o.append(garland(102, 112))
