@@ -145,9 +145,10 @@ Small, public projects built to show how I work (synthetic data only, no company
 - _Refactoring_ — Martin Fowler · Improving existing code · Melhorar código existente
 - _Test-Driven Development: By Example_ — Kent Beck · Tests first · Testes primeiro
 
-**✅ Read · Lidos (2)**
+**✅ Read · Lidos (3)**
 - _Capitães da Areia_ — Jorge Amado
 - _Noites Brancas_ — Fiódor Dostoiévski
+- _A Rainha Vermelha_ — Victoria Aveyard
 
 📚 [biblioKet: lista completa · full list (49 livros)](data/books.md)
 
