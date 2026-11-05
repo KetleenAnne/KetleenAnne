@@ -1,6 +1,8 @@
 # 📚 biblioKet
 
-_A estante da Ketleen · Ketleen's bookshelf_ · [💡 Sugira um livro · Suggest a book](https://github.com/KetleenAnne/KetleenAnne/issues/new?template=sugerir-livro.yml)
+_A estante da Ketleen · Ketleen's bookshelf_
+
+> 💡 [Sugira um livro para a biblioKet · Suggest a book](https://github.com/KetleenAnne/KetleenAnne/issues/new?template=sugerir-livro.yml)
 
 <!--
 HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
@@ -67,3 +69,7 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 - [ ] The World Atlas of Coffee | James Hoffmann |
 - [ ] Cosmos | Carl Sagan |
 - [X] A Rainha Vermelha | Victoria Aveyard | sugestão de KetleenAnne
+
+---
+
+💡 [Sugira um livro para a biblioKet · Suggest a book](https://github.com/KetleenAnne/KetleenAnne/issues/new?template=sugerir-livro.yml)
