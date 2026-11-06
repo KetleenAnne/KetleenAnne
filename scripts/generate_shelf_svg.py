@@ -171,6 +171,10 @@ def spine(b, x, board_y, section):
         sh.append(f'<rect x="{x}" y="{board_y - 9}" width="{w}" height="9" fill="#000" opacity=".16"/>')
         text_top = y + 24
 
+    star_cy = None
+    if b["status"] == "read":                         # star lives inside the spine, never above it
+        star_cy = text_top + 4
+        text_top += 16
     serif = section == 2
     fs = round(min(max(w * 0.36, 8), 13), 1)          # font grows with the spine width
     char_w = fs * (0.55 if serif else 0.6)
@@ -184,9 +188,10 @@ def spine(b, x, board_y, section):
 
     if b["status"] == "read":
         sh.append(f'<path d="M{x} {board_y - 5} H{x + w} V{board_y} H{x} Z" fill="#f4c542"/>')
-        ov.append(f'<circle cx="{cx:.1f}" cy="{y - 14}" r="10" fill="#fde68a" opacity=".22">'
-                  f'<animate attributeName="r" values="8;13;8" dur="2.6s" repeatCount="indefinite"/></circle>'
-                  f'<path d="{star(cx, y - 14, 8.5)}" fill="#fcd34d" stroke="#b7791f" stroke-width="1" stroke-linejoin="round"/>')
+        sr = min(w * 0.3, 8)
+        ov.append(f'<circle cx="{cx:.1f}" cy="{star_cy:.1f}" r="{sr + 2:.1f}" fill="#fde68a" opacity=".25">'
+                  f'<animate attributeName="r" values="{sr:.1f};{sr + 4:.1f};{sr:.1f}" dur="2.6s" repeatCount="indefinite"/></circle>'
+                  f'<path d="{star(cx, star_cy, sr)}" fill="#fcd34d" stroke="#b7791f" stroke-width="1" stroke-linejoin="round"/>')
 
     if b["status"] == "reading":
         rx_ = x + w * 0.62
