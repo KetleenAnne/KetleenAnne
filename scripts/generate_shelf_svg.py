@@ -142,7 +142,10 @@ def spine(b, x, board_y, section):
     w, hh, color, t = b["w"], b["h"], b["color"], b["title"]
     y = board_y - hh
     cx = x + w / 2
+    thin = w < 25
     style = rnd(t + "s", 3)
+    if thin and style == 1:
+        style = 0
     bulge = 0.8 + rnd(t + "b", 6) / 10
     body = (f"M{x} {y + 3} Q{cx:.1f} {y - 1.5} {x + w} {y + 3} "
             f"Q{x + w + bulge:.1f} {(y + board_y) / 2:.1f} {x + w} {board_y + 1} L{x} {board_y + 1} "
@@ -169,13 +172,14 @@ def spine(b, x, board_y, section):
         text_top = y + 24
 
     serif = section == 2
-    char_w = 5.4 if serif else 5.7
+    fs = round(min(max(w * 0.36, 8), 13), 1)          # font grows with the spine width
+    char_w = fs * (0.55 if serif else 0.6)
     title = escape(short(t, int((text_bottom - text_top) / char_w)))
     fam = 'Georgia,"Times New Roman",serif' if serif else FONT
     weight = "400" if serif else "600"
     fill = "#fbe7b5" if style == 0 else "#fffaf0"
-    ov.append(f'<text transform="translate({cx + 3.4:.1f} {text_top}) rotate(90)" font-family={fam!r} '
-              f'font-size="{10 if serif else 9.5}" font-weight="{weight}" fill="{fill}" letter-spacing=".3">{title}</text>')
+    ov.append(f'<text transform="translate({cx + fs * 0.36:.1f} {text_top}) rotate(90)" font-family={fam!r} '
+              f'font-size="{fs}" font-weight="{weight}" fill="{fill}" letter-spacing=".3">{title}</text>')
 
     if b["status"] == "read":
         sh.append(f'<path d="M{x} {board_y - 5} H{x + w} V{board_y} H{x} Z" fill="#f4c542"/>')
@@ -223,6 +227,15 @@ def garland(y_ends, y_mid):
     return "".join(out)
 
 
+def spine_width(t):
+    kind = rnd(t + "k", 10)
+    if kind < 3:
+        return 18 + rnd(t + "w", 6)    # thin: 18-23 px
+    if kind < 8:
+        return 28 + rnd(t + "w", 10)   # medium: 28-37 px
+    return 40 + rnd(t + "w", 8)        # thick: 40-47 px
+
+
 def build():
     sections = parse((ROOT / "data" / "books.md").read_text(encoding="utf-8"))
     books = []
@@ -231,7 +244,7 @@ def build():
         for b in sec["books"]:
             t = b["title"]
             books.append({**b, "section": si, "color": pal[rnd(t, len(pal))],
-                          "w": 29 + rnd(t + "w", 16), "h": 118 + rnd(t + "h", 46)})
+                          "w": spine_width(t), "h": 118 + rnd(t + "h", 46)})
 
     rows, cur, used = [], [], 0
     avail = INNER_R - INNER_L
