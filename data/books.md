@@ -46,6 +46,11 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 - [ ] Pense como um Cientista de Foguetes | Ozan Varol | Resolver problemas novos com mentalidade de cientista
 - [ ] Seja Egoísta com a Sua Carreira | Luciano Santos | Leitura do clube do livro
 - [ ] A Gente Mira no Amor e Acerta na Solidão | Ana Suy | Leitura do clube do livro
+- [ ] Não Pise no Meu Vazio | Ana Suy |
+- [ ] Eu Só Existo no Olhar do Outro? | Ana Suy |
+- [ ] Essencialismo | Greg McKeown | Fazer menos, só que melhor
+- [ ] A Coragem de Ser Imperfeito | Brené Brown |
+- [ ] As Coisas que Você Só Vê Quando Desacelera | Haemin Sunim |
 
 ## 🐱 Off-duty · Fora do expediente
 - [ ] Querida Konbini | Murata Sayaka |
@@ -72,6 +77,7 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 - [ ] Cosmos | Carl Sagan |
 - [X] A Rainha Vermelha | Victoria Aveyard | sugestão de KetleenAnne
 - [ ] Bem-vindos à Livraria Hyunam-dong | Hwang Bo-reum | Leitura do clube do livro
+- [ ] O que Procuras Está na Biblioteca | Michiko Aoyama |
 
 ---
 
