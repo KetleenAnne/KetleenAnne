@@ -6,6 +6,7 @@ and the little plant are the hero drawings, scaled down and placed on the shelf.
 """
 import hashlib
 import math
+import re
 import pathlib
 import sys
 from xml.sax.saxutils import escape
@@ -30,10 +31,10 @@ LEAN_DEG = 7
 FONT = "Segoe UI,Helvetica,Arial,sans-serif"
 MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 
-PALETTES = [  # muted, vintage tones: one palette per section of data/books.md
-    ["#3d5a80", "#5c4d7d", "#2f6f7e", "#4a4e8c", "#6b5b95", "#335c67", "#45617a"],   # tech
-    ["#c08a3e", "#b5643c", "#a47c3b", "#8f5b3a"],                                  # mind & habits
-    ["#9e4a5a", "#7d4e7e", "#4f7a65", "#b5585f", "#5e548e", "#3f6e5a", "#c27c6b"],   # off duty
+PALETTES = [  # muted, vintage tones; each theme mixes a few hue families
+    ["#3d5a80", "#5c4d7d", "#2f6f7e", "#4a4e8c", "#6b5b95", "#335c67", "#4f7a65", "#8a4f5e", "#a47c3b", "#45617a"],  # tech
+    ["#c08a3e", "#b5643c", "#a47c3b", "#8f5b3a", "#6b7a4f", "#9e4a5a", "#5e6f8a"],                                  # mind & habits
+    ["#9e4a5a", "#7d4e7e", "#4f7a65", "#b5585f", "#5e548e", "#3f6e5a", "#c27c6b", "#3d5a80", "#a47c3b"],             # off duty
 ]
 
 
@@ -133,6 +134,28 @@ def lying_stack(x, base):
 </g>"""
 
 
+def yarn(cx, base):
+    """A ball of yarn for Gael, with a loose thread."""
+    r = 13
+    return (f'<g><path d="M{cx + 10} {base - 4} C{cx + 26} {base} {cx + 30} {base - 2} {cx + 40} {base}" fill="none" stroke="#e58fa8" stroke-width="2"/>'
+            f'<circle cx="{cx}" cy="{base - r}" r="{r}" fill="#e58fa8"/>'
+            f'<path d="M{cx - 11} {base - 19} C{cx - 2} {base - 25} {cx + 8} {base - 20} {cx + 12} {base - 9} M{cx - 12} {base - 10} C{cx - 4} {base - 18} {cx + 6} {base - 14} {cx + 9} {base - 3} '
+            f'M{cx - 6} {base - 25} C{cx + 2} {base - 15} {cx} {base - 6} {cx - 5} {base - 1}" fill="none" stroke="#c96b88" stroke-width="1.6"/></g>')
+
+
+def photo_frame(cx, base):
+    """A tiny standing frame with a heart."""
+    return (f'<g transform="rotate(-6 {cx} {base})"><rect x="{cx - 16}" y="{base - 40}" width="32" height="40" rx="3" fill="#c0814f"/>'
+            f'<rect x="{cx - 11}" y="{base - 35}" width="22" height="28" rx="2" fill="#f3e9d2"/>'
+            f'<path d="M{cx} {base - 15} c-6 -5 -7 -10 -3 -11 c2 0 3 1 3 3 c0 -2 1 -3 3 -3 c4 1 3 6 -3 11z" fill="#e58fa8"/></g>')
+
+
+def bookend(x, base):
+    """Metal bookend used to separate themes."""
+    return (f'<g><path d="M{x} {base} V{base - 58} Q{x} {base - 62} {x + 4} {base - 62} H{x + 6} V{base - 4} H{x + 14} V{base} Z" fill="#8f8aa3"/>'
+            f'<path d="M{x + 1.5} {base - 56} V{base - 4}" stroke="#d8d4e6" stroke-width="1.2" opacity=".7"/></g>')
+
+
 # ---------------------------------------------------------------- books
 GOLD = "#e9c46a"
 
@@ -161,8 +184,14 @@ def spine(b, x, board_y, section):
         text_top, text_bottom = y + 22, board_y - 18
     elif style == 1:  # paper label near the bottom
         lw = w - 10
-        sh.append(f'<rect x="{x + 5}" y="{board_y - 30}" width="{lw}" height="18" rx="3" fill="#f3e9d2" opacity=".92"/>')
-        sh.append(f'<path d="M{x + 9} {board_y - 24} H{x + w - 9} M{x + 11} {board_y - 19} H{x + w - 11}" stroke="#7a6a58" stroke-width="1" opacity=".6"/>')
+        lcol = ["#f3e9d2", "#e3ecd9", "#f3dcdc", "#e6e0f3"][rnd(t + "l", 4)]
+        sh.append(f'<rect x="{x + 5}" y="{board_y - 30}" width="{lw}" height="18" rx="3" fill="{lcol}" opacity=".93"/>')
+        surname = author_short(b.get("author", ""))
+        if surname and len(surname) * 3.9 <= lw - 4:
+            ov.append(f'<text x="{cx:.1f}" y="{board_y - 18}" text-anchor="middle" font-family={FONT!r} font-size="7" '
+                      f'font-weight="700" fill="#5a4a3a" letter-spacing=".4">{escape(surname.upper())}</text>')
+        else:
+            sh.append(f'<path d="M{x + 9} {board_y - 24} H{x + w - 9} M{x + 11} {board_y - 19} H{x + w - 11}" stroke="#7a6a58" stroke-width="1" opacity=".6"/>')
         sh.append(f'<path d="M{x} {y + 3} Q{cx:.1f} {y - 1.5} {x + w} {y + 3} V{y + 12} H{x} Z" fill="#000" opacity=".2"/>')
         text_top, text_bottom = y + 20, board_y - 36
     else:             # cloth binding: soft texture and a dark cap
@@ -176,15 +205,32 @@ def spine(b, x, board_y, section):
         star_cy = text_top + 4
         text_top += 16
     serif = section == 2
-    fs = round(min(max(w * 0.36, 8), 13), 1)          # font grows with the spine width
-    char_w = fs * (0.55 if serif else 0.6)
-    title = escape(short(t, int((text_bottom - text_top) / char_w)))
+    ratio = 0.55 if serif else 0.6
+    disp = t.split(":")[0].strip()                    # subtitles never fit on a spine
+    space = text_bottom - text_top
+    fs_max = min(max(w * 0.36, 8), 13)                 # font grows with the spine width
+    fs = min(fs_max, space / (len(disp) * ratio))
+    lines = [disp]
+    if fs < 7:
+        words = disp.split()
+        if w >= 27 and len(words) > 1:
+            cut = min(range(1, len(words)), key=lambda k: abs(len(" ".join(words[:k])) - len(" ".join(words[k:]))))
+            l1, l2 = " ".join(words[:cut]), " ".join(words[cut:])
+            fs2 = min(fs_max * 0.85, space / (max(len(l1), len(l2)) * ratio), (w - 6) / 2.3)
+            if fs2 >= 6.5:
+                fs, lines = fs2, [l1, l2]
+        if len(lines) == 1:
+            fs = 7
+            lines = [short(disp, int(space / (fs * ratio)))]
+    fs = round(fs, 1)
     fam = 'Georgia,"Times New Roman",serif' if serif else FONT
     weight = "400" if serif else "600"
     fill = "#fbe7b5" if style == 0 else "#fffaf0"
     mid = (text_top + text_bottom) / 2                  # centre the title along the spine
-    ov.append(f'<text transform="translate({cx + fs * 0.36:.1f} {mid:.1f}) rotate(90)" text-anchor="middle" font-family={fam!r} '
-              f'font-size="{fs}" font-weight="{weight}" fill="{fill}" letter-spacing=".3">{title}</text>')
+    offs = [0] if len(lines) == 1 else [-0.58 * fs, 0.58 * fs]
+    spans = "".join(f'<tspan x="0" y="{o_:.1f}">{escape(l)}</tspan>' for l, o_ in zip(lines, offs))
+    ov.append(f'<text transform="translate({cx:.1f} {mid:.1f}) rotate(90)" text-anchor="middle" dominant-baseline="central" '
+              f'font-family={fam!r} font-size="{fs}" font-weight="{weight}" fill="{fill}" letter-spacing=".3">{spans}</text>')
 
     if b["status"] == "read":
         sh.append(f'<path d="M{x} {board_y - 5} H{x + w} V{board_y} H{x} Z" fill="#f4c542"/>')
@@ -233,6 +279,12 @@ def garland(y_ends, y_mid):
     return "".join(out)
 
 
+def author_short(author):
+    first = re.split(r"\s*(?:&|,| e )\s*", author.strip())[0] if author else ""
+    first = first.replace("et al.", "").strip()
+    return first.split()[-1] if first else ""
+
+
 def spine_width(t):
     kind = rnd(t + "k", 10)
     if kind < 3:
@@ -252,15 +304,33 @@ def build():
             books.append({**b, "section": si, "color": pal[rnd(t, len(pal))],
                           "w": spine_width(t), "h": 118 + rnd(t + "h", 46)})
 
-    rows, cur, used = [], [], 0
+    items, prev = [], None
+    for bk in books:
+        if prev is not None and bk["section"] != prev:
+            items.append({"kind": "bookend", "w": 14, "status": "", "section": bk["section"]})
+        items.append({**bk, "kind": "book"})
+        prev = bk["section"]
+
+    def need_of(it, first):
+        lead = LEAN_GAP if it["status"] == "reading" else 0
+        return it["w"] + lead + (0 if first else GAP)
+
     avail = INNER_R - INNER_L
-    for b in books:
-        lead = LEAN_GAP if b["status"] == "reading" else 0
-        need = b["w"] + lead + (GAP if cur else 0)
-        if cur and used + need > avail:
+    total = sum(need_of(it, False) for it in items)
+    n_rows = max(1, math.ceil(total / (avail * 0.97)))
+    target = total / n_rows
+    rows, cur, used = [], [], 0
+    for it in items:
+        need = need_of(it, not cur)
+        rows_left = n_rows - len(rows)
+        over = used + need > avail
+        balanced_break = cur and rows_left > 1 and abs(used - target) < abs(used + need - target)
+        if cur and (over or balanced_break) and not (it["kind"] == "bookend" and not over):
             rows.append((cur, used))
-            cur, used, need = [], 0, b["w"] + lead
-        cur.append(b)
+            cur, used, need = [], 0, need_of(it, True)
+            if it["kind"] == "bookend":
+                continue                                  # never start a shelf with a bookend
+        cur.append(it)
         used += need
     if cur:
         rows.append((cur, used))
@@ -301,8 +371,8 @@ def build():
         o.append(f'<circle cx="{sx}" cy="{sy}" r="1.5" fill="#fff"><animate attributeName="opacity" values=".2;1;.2" dur="3s" begin="{d}s" repeatCount="indefinite"/></circle>')
 
     rl = "lido" if counts["read"] == 1 else "lidos"
-    o.append(f'<text x="40" y="52" font-family={"Georgia,serif"!r} font-size="27" font-style="italic" fill="#f5d0fe">biblioKet</text>')
-    o.append(f'<text x="40" y="78" font-family="{MONO}" font-size="13" fill="#c9c6f0" letter-spacing="1">a estante da Ketleen \u00b7 '
+    o.append(f'<text x="40" y="56" font-family={"Georgia,serif"!r} font-size="36" font-style="italic" fill="#f5d0fe">biblioKet</text>')
+    o.append(f'<text x="42" y="84" font-family="{MONO}" font-size="13" fill="#d6d1f5" letter-spacing="1">a estante da Ketleen \u00b7 '
              f'{counts["read"]} {rl} \u00b7 {counts["reading"]} lendo \u00b7 {counts["todo"]} na fila</text>')
 
     o.append(garland(102, 112))
@@ -333,6 +403,10 @@ def build():
         x = INNER_L
         shapes, overlays = [], []
         for b in row:
+            if b["kind"] == "bookend":
+                overlays.append(bookend(x + 1, board_y))
+                x += b["w"] + GAP
+                continue
             if b["status"] == "reading":
                 x += LEAN_GAP
             s_, v_ = spine(b, x, board_y, b["section"])
@@ -342,22 +416,27 @@ def build():
         o.append('<g filter="url(#soft)">' + "".join(shapes) + "</g>")
         o.append("<g>" + "".join(overlays) + "</g>")
         free = INNER_R - x
-        if free >= 230:
+        small = [lambda: yarn(INNER_R - 28, board_y), lambda: photo_frame(INNER_R - 24, board_y),
+                 lambda: plant(INNER_R - 24, board_y, 0.95)]
+        if free >= 200:
             o.append(lying_stack(INNER_R - 112, board_y))
-            o.append(plant(INNER_R - 165, board_y, 0.95))
-        elif free >= 120:
+            o.append(small[ri % 3]().replace(f"{INNER_R - 28}", f"{INNER_R - 150}") if ri % 3 == 0 else
+                     (photo_frame(INNER_R - 150, board_y) if ri % 3 == 1 else plant(INNER_R - 150, board_y, 0.95)))
+        elif free >= 110:
             o.append(lying_stack(INNER_R - 102, board_y))
+        elif free >= 52:
+            o.append(small[ri % 3]())
         o.append(wood_board(FRAME_L + SIDE - 2, FRAME_R - SIDE + 2, board_y))
         o.append(f'<rect x="{INNER_L - 2}" y="{board_y + 1}" width="{x - INNER_L + 2}" height="3" rx="1.5" fill="#1a0d06" opacity=".35"/>')
         o.append(f'<rect x="{FRAME_L + SIDE}" y="{board_y + BOARD}" width="{FRAME_R - FRAME_L - 2 * SIDE}" height="12" fill="url(#shadow)"/>')
 
     ly = bottom + 40
-    f = f'font-family="{MONO}" font-size="12" fill="#ddd6fe" letter-spacing=".5"'
+    f = f'font-family="{MONO}" font-size="12" fill="#efeaff" letter-spacing=".5"'
     o.append(f'<path d="{star(50, ly - 4, 8)}" fill="#fcd34d" stroke="#b7791f" stroke-width="1"/><text x="66" y="{ly}" {f}>lido \u00b7 read</text>')
     o.append(f'<g transform="rotate(-{LEAN_DEG} 214 {ly + 6})"><rect x="208" y="{ly - 12}" width="12" height="18" rx="2" fill="#5c4d7d"/>'
              f'<path d="M214 {ly - 12} v-6 h4 v6 Z" fill="#d94b4b"/></g><text x="232" y="{ly}" {f}>lendo \u00b7 reading</text>')
     o.append(f'<rect x="396" y="{ly - 12}" width="12" height="18" rx="2" fill="#9e4a5a"/><text x="418" y="{ly}" {f}>na fila \u00b7 to read</text>')
-    o.append(f'<text x="{W - 40}" y="{ly}" text-anchor="end" font-family="{MONO}" font-size="11" fill="#8f86c9">auto-updated from data/books.md</text>')
+    o.append(f'<text x="{W - 40}" y="{ly}" text-anchor="end" font-family="{MONO}" font-size="11" fill="#b9b0ea">auto-updated from data/books.md</text>')
     o.append(f'<rect width="{W}" height="{H}" fill="url(#vignette)"/>')
     o.append(f'<rect width="{W}" height="{H}" filter="url(#grain)"/>')
     o.append("</g></svg>")
