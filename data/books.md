@@ -44,6 +44,8 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 - [ ] Deep Work | Cal Newport |
 - [ ] Mindset | Carol S. Dweck |
 - [ ] Pense como um Cientista de Foguetes | Ozan Varol | Resolver problemas novos com mentalidade de cientista
+- [ ] Seja Egoísta com a Sua Carreira | Luciano Santos | Leitura do clube do livro
+- [ ] A Gente Mira no Amor e Acerta na Solidão | Ana Suy | Leitura do clube do livro
 
 ## 🐱 Off-duty · Fora do expediente
 - [ ] Querida Konbini | Murata Sayaka |
@@ -69,6 +71,7 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 - [ ] The World Atlas of Coffee | James Hoffmann |
 - [ ] Cosmos | Carl Sagan |
 - [X] A Rainha Vermelha | Victoria Aveyard | sugestão de KetleenAnne
+- [ ] Bem-vindos à Livraria Hyunam-dong | Hwang Bo-reum | Leitura do clube do livro
 
 ---
 
