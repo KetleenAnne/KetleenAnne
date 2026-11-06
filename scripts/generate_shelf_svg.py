@@ -152,8 +152,9 @@ def photo_frame(cx, base):
 
 def bookend(x, base):
     """Metal bookend used to separate themes."""
-    return (f'<g><path d="M{x} {base} V{base - 58} Q{x} {base - 62} {x + 4} {base - 62} H{x + 6} V{base - 4} H{x + 14} V{base} Z" fill="#8f8aa3"/>'
-            f'<path d="M{x + 1.5} {base - 56} V{base - 4}" stroke="#d8d4e6" stroke-width="1.2" opacity=".7"/></g>')
+    return (f'<g><path d="M{x} {base} V{base - 66} Q{x} {base - 71} {x + 5} {base - 71} H{x + 8} V{base - 5} H{x + 18} V{base} Z" fill="#c9a14a"/>'
+            f'<path d="M{x + 2} {base - 64} V{base - 5}" stroke="#f4d88a" stroke-width="1.6" opacity=".9"/>'
+            f'<path d="M{x + 8} {base - 5} H{x + 18}" stroke="#8a6a2a" stroke-width="1.2" opacity=".8"/></g>')
 
 
 # ---------------------------------------------------------------- books
@@ -206,21 +207,23 @@ def spine(b, x, board_y, section):
         text_top += 16
     serif = section == 2
     ratio = 0.55 if serif else 0.6
-    disp = t.split(":")[0].strip()                    # subtitles never fit on a spine
+    disp = b.get("short") or t.split(":")[0].strip()  # subtitles never fit on a spine
+    if not b.get("short") and len(disp) > 26:
+        disp = re.sub(r"\s*\(.*?\)", "", disp).split(",")[0].strip() or disp
     space = text_bottom - text_top
     fs_max = min(max(w * 0.36, 8), 13)                 # font grows with the spine width
     fs = min(fs_max, space / (len(disp) * ratio))
     lines = [disp]
-    if fs < 7:
+    if fs < 8:
         words = disp.split()
         if w >= 27 and len(words) > 1:
             cut = min(range(1, len(words)), key=lambda k: abs(len(" ".join(words[:k])) - len(" ".join(words[k:]))))
             l1, l2 = " ".join(words[:cut]), " ".join(words[cut:])
             fs2 = min(fs_max * 0.85, space / (max(len(l1), len(l2)) * ratio), (w - 6) / 2.3)
-            if fs2 >= 6.5:
+            if fs2 >= 7.5:
                 fs, lines = fs2, [l1, l2]
         if len(lines) == 1:
-            fs = 7
+            fs = 8
             lines = [short(disp, int(space / (fs * ratio)))]
     fs = round(fs, 1)
     fam = 'Georgia,"Times New Roman",serif' if serif else FONT
@@ -307,7 +310,7 @@ def build():
     items, prev = [], None
     for bk in books:
         if prev is not None and bk["section"] != prev:
-            items.append({"kind": "bookend", "w": 14, "status": "", "section": bk["section"]})
+            items.append({"kind": "bookend", "w": 20, "status": "", "section": bk["section"]})
         items.append({**bk, "kind": "book"})
         prev = bk["section"]
 
@@ -334,6 +337,11 @@ def build():
         used += need
     if cur:
         rows.append((cur, used))
+    for row, _ in rows:                                  # a leaning book never opens a shelf
+        if row and row[0]["status"] == "reading":
+            j = next((k for k, it in enumerate(row) if it["kind"] == "book" and it["status"] != "reading"), None)
+            if j is not None:
+                row[0], row[j] = row[j], row[0]
 
     counts = {"read": 0, "reading": 0, "todo": 0}
     for b in books:

@@ -12,6 +12,8 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 
   Line format · Formato da linha:
   - [ ] Title | Author | Why / Por quê
+  Optional 4th field = short title for the spine drawing · 4º campo opcional = título curto na lombada:
+  - [ ] Bem-vindos à Livraria Hyunam-dong | Hwang Bo-reum | ... | Livraria Hyunam-dong
   Sections (## ...) become groups in the shelf. · As seções (## ...) viram grupos na estante.
 -->
 
@@ -76,7 +78,7 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 - [ ] The World Atlas of Coffee | James Hoffmann |
 - [ ] Cosmos | Carl Sagan |
 - [X] A Rainha Vermelha | Victoria Aveyard | sugestão de KetleenAnne
-- [ ] Bem-vindos à Livraria Hyunam-dong | Hwang Bo-reum | Leitura do clube do livro
+- [ ] Bem-vindos à Livraria Hyunam-dong | Hwang Bo-reum | Leitura do clube do livro | Livraria Hyunam-dong
 - [ ] O que Procuras Está na Biblioteca | Michiko Aoyama |
 
 ---

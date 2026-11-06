@@ -29,6 +29,7 @@ def parse(text):
             "title": title,
             "author": parts[1] if len(parts) > 1 else "",
             "why": parts[2] if len(parts) > 2 else "",
+            "short": parts[3] if len(parts) > 3 else "",
             "status": "read" if done else ("reading" if reading else "todo"),
         })
     return sections
