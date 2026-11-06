@@ -178,7 +178,8 @@ def spine(b, x, board_y, section):
     fam = 'Georgia,"Times New Roman",serif' if serif else FONT
     weight = "400" if serif else "600"
     fill = "#fbe7b5" if style == 0 else "#fffaf0"
-    ov.append(f'<text transform="translate({cx + fs * 0.36:.1f} {text_top}) rotate(90)" font-family={fam!r} '
+    mid = (text_top + text_bottom) / 2                  # centre the title along the spine
+    ov.append(f'<text transform="translate({cx + fs * 0.36:.1f} {mid:.1f}) rotate(90)" text-anchor="middle" font-family={fam!r} '
               f'font-size="{fs}" font-weight="{weight}" fill="{fill}" letter-spacing=".3">{title}</text>')
 
     if b["status"] == "read":
