@@ -383,6 +383,14 @@ def build():
     o.append(f'<text x="42" y="84" font-family="{MONO}" font-size="13" fill="#d6d1f5" letter-spacing="1">a estante da Ketleen \u00b7 '
              f'{counts["read"]} {rl} \u00b7 {counts["reading"]} lendo \u00b7 {counts["todo"]} na fila</text>')
 
+    total_books = counts["read"] + counts["reading"] + counts["todo"]
+    if total_books:                                      # reading progress bar in the header
+        bx, by, bw = 560, 74, 110
+        frac = counts["read"] / total_books
+        o.append(f'<rect x="{bx}" y="{by}" width="{bw}" height="10" rx="5" fill="#ffffff" opacity=".12"/>'
+                 f'<rect x="{bx}" y="{by}" width="{max(bw * frac, 10):.1f}" height="10" rx="5" fill="#fcd34d"/>'
+                 f'<text x="{bx + bw / 2}" y="{by - 6}" text-anchor="middle" font-family="{MONO}" font-size="10" fill="#d6d1f5" letter-spacing=".5">'
+                 f'{counts["read"]} de {total_books} lidos</text>')
     o.append(garland(102, 112))
     o.append(f'<ellipse cx="640" cy="{TOP - 40}" rx="230" ry="90" fill="url(#warm)"/>')
 
