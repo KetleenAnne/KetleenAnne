@@ -57,7 +57,7 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 ## 🐱 Off-duty · Fora do expediente
 - [ ] Querida Konbini | Murata Sayaka |
 - [ ] 1984 (lendo) | George Orwell |
-- [ ] A revolução dos bichos (lendo) | George Orwell |
+- [x] A revolução dos bichos | George Orwell |
 - [ ] O sol é para todos | Harper Lee |
 - [X] Capitães da Areia | Jorge Amado |
 - [ ] Maus | Art Spiegelman |
