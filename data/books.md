@@ -80,6 +80,7 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 - [X] A Rainha Vermelha | Victoria Aveyard | sugestão de KetleenAnne
 - [ ] Bem-vindos à Livraria Hyunam-dong | Hwang Bo-reum | Leitura do clube do livro | Livraria Hyunam-dong
 - [ ] O que Procuras Está na Biblioteca | Michiko Aoyama |
+- [ ] O silêncio dos inocentes | Thomas Harris | A história não aposta em cenas de ação desenfreada, mas sim na construção gradual de um jogo mental inteligente entre os personagens princip (sugestão de kaiquesbampato)
 
 ---
 

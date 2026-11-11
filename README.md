@@ -150,7 +150,7 @@ Small, public projects built to show how I work (synthetic data only, no company
 - _Noites Brancas_ — Fiódor Dostoiévski
 - _A Rainha Vermelha_ — Victoria Aveyard
 
-📚 [biblioKet: lista completa · full list (58 livros)](data/books.md)
+📚 [biblioKet: lista completa · full list (59 livros)](data/books.md)
 
 <!-- SHELF:END -->
 
