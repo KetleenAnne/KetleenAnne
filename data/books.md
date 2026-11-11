@@ -40,6 +40,7 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 - [ ] Software Engineering at Google | Titus Winters, Tom Manshreck & Hyrum Wright | Code that lasts for years · Código que dura anos | SWE at Google
 - [ ] Cracking the Coding Interview | Gayle Laakmann McDowell | Technical interview practice · Treino para entrevista técnica
 - [ ] System Design Interview | Alex Xu | System design practice · Treino de system design
+- [ ] Eu, Robô | Isaac Asimov | Eu não fecho com robô (sugestão de ale-jr)
 
 ## 🌱 Mind & habits · Mente e hábitos
 - [ ] Atomic Habits | James Clear |
