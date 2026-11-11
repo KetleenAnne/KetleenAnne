@@ -82,6 +82,7 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 - [ ] O que Procuras Está na Biblioteca | Michiko Aoyama |
 - [ ] O silêncio dos inocentes | Thomas Harris | A história não aposta em cenas de ação desenfreada, mas sim na construção gradual de um jogo mental inteligente entre os personagens princip (sugestão de kaiquesbampato)
 - [ ] Laranja Mecânica | Anthony Burgess | Adolescente revoltado da nisso ai (sugestão de ale-jr)
+- [ ] Neuromancer | William Gibson | Bem ficção, mas legal (sugestão de ale-jr)
 
 ---
 
