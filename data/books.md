@@ -85,6 +85,7 @@ HOW TO MARK A BOOK AS READ · COMO MARCAR COMO LIDO
 - [ ] Laranja Mecânica | Anthony Burgess | Adolescente revoltado da nisso ai (sugestão de ale-jr)
 - [ ] Neuromancer | William Gibson | Bem ficção, mas legal (sugestão de ale-jr)
 - [ ] Um estudo em vermelho | Árthur Conan Doyle | Uuuuuu mistério (e policiais tontos), levinho (sugestão de ale-jr)
+- [ ] Spark of the Everflame | Penn Cole | Recomendaria este livro porque ele constrói uma fantasia épica, cheia de intrigas, magia e uma heroína de atitude que desafia a opressão. Al (sugestão de YasminAlmeida)
 
 ---
 
